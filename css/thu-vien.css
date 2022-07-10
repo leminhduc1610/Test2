@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque&display=swap');
+body
+{
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size:18px ;
+	color: #4E4E4E;
+	margin: 0
+}
+h1,h2,h3{font-family: 'Charm', cursive; color:#58732F; margin-bottom: 0; padding-bottom: 0 }
+p,h4,h5{ margin: 5px}
+*{box-sizing: border-box}
+.row{ display: flex; flex-wrap: wrap; }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  padding: 15px;
+  /*border: 1px solid red;*/
+}
+.container-fluid{ width: 100%}
+.container{ width: 80%; margin: auto}
+.text-center{ text-align: center}
+.text-right{ text-align: right}
+.text-primary{color: #58732F}
+.bg-primary{ background-color: #58732F}
+.text-secondary{color: #D46702}
+.bg-secondary{ background-color: #D46702}
+.bg-light{ background: #eee}
+.text-dark{ color: #4E4E4E}
+.text-light {color: #F2F0EB}
+.btn-primary{ border: none; background: #58732F; padding: 5px 15px; border-radius:5px; color: #fff;  }
+.btn-primary:hover{ background: #E71182}
+
+.btn-light{border: none; background: #eee; padding: 5px 15px; border-radius:10px; color: #333}
+.btn-light:hover{ background: #939393}
+/*--- style cho chế độ flex-- cãnh chỉnh các item theo chiều ngang-- */
+.d-flex{ display: flex}
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-end{ justify-content: flex-end}
+.align-items-center{ align-items: center}
+.align-items-end{ align-items:flex-end}
+.align-items-start{ align-items: flex-start}
+.flex-row-reverse{ flex-direction: row-reverse}
+.flex-column{ flex-direction: column}
+.flex-column-reverse{ flex-direction:column-reverse}
+.py-50{ padding-bottom: 50px; padding-top: 50px}
+/*------------------style thu vien img-------------*/
+.img-100{	width: 100%; height: auto}
+.img-rounded{ border-radius: 15px}
+.img-circle{ border-radius: 50%}
+.my-50{ margin-bottom: 50px; margin-top: 50px}
+.py-50{ padding-bottom: 50px; padding-top: 50px}
+.ml-20{margin-left: 20px}
+.py-10{padding-bottom: 5px; padding-top: 10px; margin: 10px}
+
+
+
+
+
+
+
+
+
